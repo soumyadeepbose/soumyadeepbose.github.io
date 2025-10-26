@@ -15,6 +15,18 @@ async function loadFileStructure() {
     }
 }
 
+function getFileClass(filename) {
+    const ext = filename.split('.').pop().toLowerCase();
+    if (ext === 'pdf') {
+        return 'file-pdf';
+    } else if (['jpg', 'jpeg', 'png', 'gif', 'svg', 'webp', 'bmp'].includes(ext)) {
+        return 'file-image';
+    } else {
+        return 'file-html';
+    }
+    return 'file';
+}
+
 function renderFileList() {
     const fileList = document.getElementById('file-list');
     fileList.innerHTML = '';
@@ -23,7 +35,7 @@ function renderFileList() {
     updateBreadcrumb();
     
     // Update title
-    const titlePath = currentPath.length > 0 ? 'visualisations/' + currentPath.join('/') + '/' : 'visualisations/';
+    const titlePath = currentPath.length > 0 ? 'vault/' + currentPath.join('/') + '/' : 'vault/';
     document.querySelector('h1').textContent = `Index of ${titlePath}`;
     
     if (currentPath.length === 0) {
@@ -43,9 +55,10 @@ function renderFileList() {
         const files = fileStructure[folder] || [];
         
         files.forEach(fileInfo => {
+            const fileClass = getFileClass(fileInfo.name);
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td><a href="#" onclick="openFile('${fileInfo.path}'); return false;" class="file">${fileInfo.name}</a></td>
+                <td><a href="#" onclick="openFile('${fileInfo.path}'); return false;" class="${fileClass}">${fileInfo.name}</a></td>
                 <td>${fileInfo.size}</td>
                 <td>${fileInfo.modified}</td>
             `;

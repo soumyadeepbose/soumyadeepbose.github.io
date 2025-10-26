@@ -75,6 +75,36 @@ a:hover {
     content: "📄 ";
 }
 
+.file-html::before {
+    content: "📄 ";
+}
+
+.file-pdf::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/pdf.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.file-image::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/jpg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
 iframe {
     width: 100%;
     height: calc(100vh - 100px);

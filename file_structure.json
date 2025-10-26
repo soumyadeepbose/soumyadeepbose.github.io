@@ -3,74 +3,90 @@
     {
       "name": "component_wise_weight_norms.html",
       "size": "4.4 MB",
-      "modified": "10/25/25, 10:17:14 PM",
-      "path": "visualisations/bilinear_modular_addition/component_wise_weight_norms.html"
+      "modified": "25/10/2025, 10:17:14 PM",
+      "path": "vault/bilinear_modular_addition/component_wise_weight_norms.html"
     },
     {
       "name": "eigenvector_analysis_dropdown.html",
       "size": "4.4 MB",
-      "modified": "10/25/25, 09:50:48 PM",
-      "path": "visualisations/bilinear_modular_addition/eigenvector_analysis_dropdown.html"
+      "modified": "25/10/2025, 09:50:48 PM",
+      "path": "vault/bilinear_modular_addition/eigenvector_analysis_dropdown.html"
     },
     {
       "name": "eigenvector_slider_animation.html",
       "size": "4.6 MB",
-      "modified": "10/25/25, 09:50:49 PM",
-      "path": "visualisations/bilinear_modular_addition/eigenvector_slider_animation.html"
+      "modified": "25/10/2025, 09:50:49 PM",
+      "path": "vault/bilinear_modular_addition/eigenvector_slider_animation.html"
     },
     {
       "name": "fourier_coefficients_heatmap.html",
       "size": "4.6 MB",
-      "modified": "10/25/25, 10:02:35 PM",
-      "path": "visualisations/bilinear_modular_addition/fourier_coefficients_heatmap.html"
+      "modified": "25/10/2025, 10:02:35 PM",
+      "path": "vault/bilinear_modular_addition/fourier_coefficients_heatmap.html"
     },
     {
       "name": "fourier_periodicity_slider_animation.html",
       "size": "4.7 MB",
-      "modified": "10/25/25, 10:02:35 PM",
-      "path": "visualisations/bilinear_modular_addition/fourier_periodicity_slider_animation.html"
+      "modified": "25/10/2025, 10:02:35 PM",
+      "path": "vault/bilinear_modular_addition/fourier_periodicity_slider_animation.html"
     },
     {
       "name": "frequency_spectrum_slider_animation.html",
       "size": "4.6 MB",
-      "modified": "10/25/25, 09:50:49 PM",
-      "path": "visualisations/bilinear_modular_addition/frequency_spectrum_slider_animation.html"
+      "modified": "25/10/2025, 09:50:49 PM",
+      "path": "vault/bilinear_modular_addition/frequency_spectrum_slider_animation.html"
     },
     {
       "name": "hosvd_components_slider_animation.html",
       "size": "22.4 MB",
-      "modified": "10/25/25, 09:50:51 PM",
-      "path": "visualisations/bilinear_modular_addition/hosvd_components_slider_animation.html"
+      "modified": "25/10/2025, 09:50:51 PM",
+      "path": "vault/bilinear_modular_addition/hosvd_components_slider_animation.html"
     },
     {
       "name": "hosvd_singular_value_spectrum.html",
       "size": "4.4 MB",
-      "modified": "10/25/25, 09:50:51 PM",
-      "path": "visualisations/bilinear_modular_addition/hosvd_singular_value_spectrum.html"
+      "modified": "25/10/2025, 09:50:51 PM",
+      "path": "vault/bilinear_modular_addition/hosvd_singular_value_spectrum.html"
     },
     {
       "name": "interaction_matrices_classes.html",
       "size": "5.1 MB",
-      "modified": "10/25/25, 09:50:48 PM",
-      "path": "visualisations/bilinear_modular_addition/interaction_matrices_classes.html"
+      "modified": "25/10/2025, 09:50:48 PM",
+      "path": "vault/bilinear_modular_addition/interaction_matrices_classes.html"
     },
     {
       "name": "interaction_matrices_slider_animation.html",
       "size": "19.3 MB",
-      "modified": "10/25/25, 10:27:48 PM",
-      "path": "visualisations/bilinear_modular_addition/interaction_matrices_slider_animation.html"
+      "modified": "25/10/2025, 10:27:48 PM",
+      "path": "vault/bilinear_modular_addition/interaction_matrices_slider_animation.html"
     },
     {
       "name": "weight_distributions.html",
       "size": "4.8 MB",
-      "modified": "10/25/25, 10:18:56 PM",
-      "path": "visualisations/bilinear_modular_addition/weight_distributions.html"
+      "modified": "25/10/2025, 10:18:56 PM",
+      "path": "vault/bilinear_modular_addition/weight_distributions.html"
     },
     {
       "name": "weight_patterns_neurons.html",
       "size": "5.1 MB",
-      "modified": "10/25/25, 09:50:48 PM",
-      "path": "visualisations/bilinear_modular_addition/weight_patterns_neurons.html"
+      "modified": "25/10/2025, 09:50:48 PM",
+      "path": "vault/bilinear_modular_addition/weight_patterns_neurons.html"
+    }
+  ],
+  "em_whitebox": [
+    {
+      "name": "whitebox_em_initial_report.pdf",
+      "size": "466.0 KB",
+      "modified": "04/06/2025, 11:44:26 PM",
+      "path": "vault/em_whitebox/whitebox_em_initial_report.pdf"
+    }
+  ],
+  "mivlde": [
+    {
+      "name": "mivlde_logit_and_attention_lens.pdf",
+      "size": "4.3 MB",
+      "modified": "22/04/2025, 07:14:34 PM",
+      "path": "vault/mivlde/mivlde_logit_and_attention_lens.pdf"
     }
   ]
 }
